@@ -6,9 +6,9 @@ class HomePageLocators():
 
 
 class NavigationLocators():
-    WOMEN = (By.XPATH, ('//*[@id="block_top_menu"]/ul/li[1]/a'))
-    DRESSES = (By.XPATH, ('//*[@id="block_top_menu"]/ul/li[2]/a'))
-    TSHIRTS = (By.XPATH, ('//*[@id="block_top_menu"]/ul/li[3]/a'))
+    WOMEN = (By.XPATH, ('//*[@id="block_top_menu"]//a[@title="Women"]'))
+    DRESSES = (By.XPATH, ('//*[@id="block_top_menu"]//a[@title="Dresses"]'))
+    TSHIRTS = (By.XPATH, ('//*[@id="block_top_menu"]//a[@title="T-SHIRTS"]'))
 
 
 class LoginPageLocators():
