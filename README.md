@@ -1,4 +1,4 @@
-# Page Object Pattern Boilerplate example using Python
+# Python selenium tests example
 
 This repository contains an example of Selenium Page Object Pattern created using Python.
 For test purposes website http://automationpractice.com was used.
